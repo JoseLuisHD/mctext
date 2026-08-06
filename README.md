@@ -1,4 +1,4 @@
-# translation
+# mctext
 
 `https://github.com/JoseLuisHD/mctext`
 
