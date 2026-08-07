@@ -23,8 +23,36 @@ type Language string
 // The languages shipped by default. Any other tag can be added at runtime with
 // RegisterLanguage, before Init is called.
 const (
-	English Language = "en"
-	Spanish Language = "es"
+	English    Language = "en"
+	Spanish    Language = "es"
+	French     Language = "fr"
+	German     Language = "de"
+	Italian    Language = "it"
+	Portuguese Language = "pt"
+	Russian    Language = "ru"
+	Japanese   Language = "ja"
+	Korean     Language = "ko"
+	Chinese    Language = "zh"
+	Arabic     Language = "ar"
+	Hindi      Language = "hi"
+	Turkish    Language = "tr"
+	Dutch      Language = "nl"
+	Polish     Language = "pl"
+	Swedish    Language = "sv"
+	Norwegian  Language = "no"
+	Danish     Language = "da"
+	Finnish    Language = "fi"
+	Czech      Language = "cs"
+	Greek      Language = "el"
+	Hungarian  Language = "hu"
+	Romanian   Language = "ro"
+	Ukrainian  Language = "uk"
+	Thai       Language = "th"
+	Vietnamese Language = "vi"
+	Indonesian Language = "id"
+	Malay      Language = "ms"
+	Hebrew     Language = "he"
+	Persian    Language = "fa"
 )
 
 func (l Language) String() string {
