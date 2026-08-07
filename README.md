@@ -174,6 +174,42 @@ portuguese, err := mctext.RegisterLanguage("pt-br", "Português do Brasil")
 mctext.Open(portuguese, "common.ini", "shop.ini"),
 ```
 
+Registered default languages
+
+| Constant | Language | Code |
+|----------|----------|------|
+| `English` | English | `en` |
+| `Spanish` | Spanish | `es` |
+| `French` | French | `fr` |
+| `German` | German | `de` |
+| `Italian` | Italian | `it` |
+| `Portuguese` | Portuguese | `pt` |
+| `Russian` | Russian | `ru` |
+| `Japanese` | Japanese | `ja` |
+| `Korean` | Korean | `ko` |
+| `Chinese` | Chinese | `zh` |
+| `Arabic` | Arabic | `ar` |
+| `Hindi` | Hindi | `hi` |
+| `Turkish` | Turkish | `tr` |
+| `Dutch` | Dutch | `nl` |
+| `Polish` | Polish | `pl` |
+| `Swedish` | Swedish | `sv` |
+| `Norwegian` | Norwegian | `no` |
+| `Danish` | Danish | `da` |
+| `Finnish` | Finnish | `fi` |
+| `Czech` | Czech | `cs` |
+| `Greek` | Greek | `el` |
+| `Hungarian` | Hungarian | `hu` |
+| `Romanian` | Romanian | `ro` |
+| `Ukrainian` | Ukrainian | `uk` |
+| `Thai` | Thai | `th` |
+| `Vietnamese` | Vietnamese | `vi` |
+| `Indonesian` | Indonesian | `id` |
+| `Malay` | Malay | `ms` |
+| `Hebrew` | Hebrew | `he` |
+| `Persian` | Persian | `fa` |
+
+
 ### Embedding the catalogs in the binary
 
 ```go
