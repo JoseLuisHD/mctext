@@ -1,6 +1,8 @@
 # mctext
 
-`https://github.com/JoseLuisHD/mctext`
+```bash
+go get github.com/JoseLuisHD/mctext
+```
 
 Multi-language message catalog for the Minecraft game. Messages live in INI files, are
 declared explicitly at start-up, and are compiled once so that serving one at
